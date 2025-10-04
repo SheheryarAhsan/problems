@@ -23,8 +23,6 @@ function memoize(fn) {
     };
 };
 
-
-
 let callCount = 0;
 const sum = memoize(function (a, b) {
     callCount += 1;
