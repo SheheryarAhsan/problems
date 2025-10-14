@@ -12,7 +12,6 @@ var cancellable = function (fn, args, t) {
 };
 
 const result = [];
-
 const fn = (x) => x * 2;
 const args = [4], t = 35, cancelTimeMs = 190;
 
