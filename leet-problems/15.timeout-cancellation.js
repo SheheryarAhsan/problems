@@ -37,5 +37,8 @@ const maxT = Math.max(t, cancelTimeMs);
 setTimeout(cancel, cancelTimeMs);
 
 setTimeout(() => {
-    console.log(result); // [{"time":20,"returned":10}]
+    console.log(result);
 }, maxT + 15)
+
+// Time complexity: O(1)
+// Space complexity: O(1)
